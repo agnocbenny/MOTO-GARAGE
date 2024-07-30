@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moto Parts Display</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('https://wallpapercave.com/wp/wp9674090.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #fff;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+        .part-card {
+            background-color: #333;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+        .part-card:hover {
+            transform: scale(1.05);
+        }
+        .part-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .part-card-body {
+            padding: 15px;
+        }
+        .part-card-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .part-card-text {
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+        .part-card-price {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #f8c94d;
+        }
+        .navbar {
+            background-color: #222;
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .navbar-nav .nav-link {
+            font-size: 1.2rem;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Moto Accessories</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card part-card">
+                    <img class="card-img-top" src="assets\images 2\Tyre.jpeg" alt="Part 1">
+                    <div class="card-body part-card-body">
+                        <h5 class="card-title part-card-title">TYRE</h5>
+                        <p class="card-text part-card-text">Aspect Ratio:
+The height of your tyre from the base of the tread to the rim, as a percentage of the tread width. Low profile tyres have smaller aspect ratios. Example: The height of this tyre is 65% of its width.
+
+Tyre Construction:
+The method used to construct your tyre. Example: R, for radial ply construction. This is the most common method of construction for passenger tyres.
+
+Rim:
+The diameter of the wheel rim in inches. If you are buying wheels for existing tyres, this is the size you will need. Example: 15 inches.</p>
+                        <p class="card-text part-card-price">RS.25000</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card part-card">
+                    <img class="card-img-top" src="assets\images 2\halogen.jpeg" alt="Part 2">
+                    <div class="card-body part-card-body">
+                        <h5 class="card-title part-card-title">HALOGEN LIGHT</h5>
+                        <p class="card-text part-card-text">Halogen lights are a type of incandescent lamp that use a tungsten filament and a small amount of halogen gas to increase brightness and lifespan. They are commonly used in motorcycle headlights.
+
+Features:
+
+Brightness: Halogen bulbs produce a bright, white light, though not as intense as HID or LED lights.
+Color Temperature: Typically ranges from 3000K to 3500K, producing a warm white light.
+Lifespan: Average lifespan is around 500 to 1,000 hours.
+Cost: Generally cheaper than LED and HID lights.
+</p>
+                        <p class="card-text part-card-price">RS.10000</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card part-card">
+                    <img class="card-img-top" src="https://bikeadvice.in/wp-content/uploads/2018/02/Hero-Xtreme-200R-pics-disc-brake-abs.jpg" alt="Part 3">
+                    <div class="card-body part-card-body">
+                        <h5 class="card-title part-card-title">BRAKE KIT</h5>
+                        <p class="card-text part-card-text">A motorcycle brake kit is a comprehensive set of components designed to provide the necessary parts to repair or upgrade a motorcycle's braking system. These kits ensure that all parts work together seamlessly to deliver optimal braking performance. Here’s a detailed description of the components typically included in a motorcycle brake kit and their functions:
+                        If you are buying wheels for existing tyres, this is the size you will need. Example: 15 inches.</p>
+                        <p class="card-text part-card-price">RS.50000</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
